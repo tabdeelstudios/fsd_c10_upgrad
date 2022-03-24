@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            
+        }
+        
+        header img{
+            width: 250px;
+            
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+        ul li{
+            display: inline;
+        }
+        ul li a{
+            color:#f7567c;
+            margin: 0 50px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        #topSection{
+            background-image: url('assets/images/header_bg_1.png');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 200px;
+        }
+
+        #topSection h1{
+            font-size: 40px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+        #topSection h3{
+            margin-top: 0px;
+            font-size: 26px;
+            font-weight: 200;
+            color: #FFFFFF;
+        }
+
+        #topSection button{
+            background-color:#f7567c;
+            color:#FFFFFF;
+            border:none;
+            padding: 15px 50px;
+            border-radius: 20px;
+        }
+
+        #upcomingBatches{
+            margin-bottom: 100px;
+
+        }
+        #upcomingBatches h1{
+            font-size: 36px;
+            text-align: center;
+        }
+        #upcomingFlex{
+            display: flex;
+            margin-left: 18%;
+            margin-right: 18%;
+            justify-content: space-around;
+        }
+        #upcomingFlex > div{
+            max-width: 350px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 2px 3px 40px gray;
+        }
+        #upcomingFlex img{
+            width: 350px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo_header.png" alt="">
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Courses</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="topSection">
+        <h1>Unleash the artist in you</h1>
+        <h3>and kickstart your career in arts</h3>
+        <button>Explore Courses</button>
+    </section>
+    <section id="upcomingBatches">
+        <h1>Upcoming Batchs</h1>
+        <div id="upcomingFlex">
+            <div>
+                <a href="">
+                    <div>
+                        <img src="assets/images/Unboxing-Content-Writing-Blogging-Website-1.png" alt="">
+                        <h3>Unboxing Content Writing and Blogging</h3>
+                        <p>Batch starts from 21st March</p>
+                        <p>Become job ready in 5 weeks!</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div>
+                        <img src="assets/images/Unboxing-Content-Writing-Blogging-Website-1.png" alt="">
+                        <h3>Unboxing Content Writing and Blogging</h3>
+                        <p>Batch starts from 21st March</p>
+                        <p>Become job ready in 5 weeks!</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div>
+                        <img src="assets/images/Unboxing-Content-Writing-Blogging-Website-1.png" alt="">
+                        <h3>Unboxing Content Writing and Blogging</h3>
+                        <p>Batch starts from 21st March</p>
+                        <p>Become job ready in 5 weeks!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
